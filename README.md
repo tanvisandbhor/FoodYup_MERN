@@ -1,18 +1,18 @@
-# GoFood 🍽️ – MERN Stack Food Ordering App
+# FoodYup 🍱 – MERN Stack Food Ordering App
 
-GoFood is a full-stack food ordering web application built with the MERN stack (MongoDB, Express.js, React, Node.js). Users can browse food items, add them to the cart, place orders, and view past orders.
+**FoodYup** is a full-stack food ordering web application built with the MERN stack (MongoDB, Express.js, React, Node.js). Users can browse food items, add them to their cart, place orders, and view past orders—all in a clean and responsive UI.
 
 ---
 
 ## 🚀 Features
 
 - 🔐 User Authentication (Login/Signup)
-- 🛒 Add to Cart and Checkout
+- 🛒 Add to Cart and Checkout System
 - 🧾 My Orders Page
 - 📦 Order Storage using MongoDB
 - ⚙️ Payment Integration 
-- 🌐 Responsive UI with React
-- ☁️ MongoDB Atlas for cloud database
+- 🌐 Responsive UI built with React
+- ☁️ Cloud database using MongoDB Atlas
 
 ---
 
@@ -22,9 +22,25 @@ GoFood is a full-stack food ordering web application built with the MERN stack (
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB Atlas
 - **Authentication:** JWT (JSON Web Tokens)
-- **Payment:** [Your payment gateway here, e.g., Razorpay/Stripe]
+- **Payment Gateway:** [e.g., Razorpay / Stripe]
 
 ---
 
 ## 📂 Folder Structure
+foodyup/
+├── backend/
+│ ├── models/
+│ ├── routes/
+│ ├── .env
+│ ├── server.js
+│ └── ...
+├── frontend/
+│ ├── src/
+│ ├── public/
+│ ├── .env
+│ └── ...
+└── README.md
 
+
+
+---
